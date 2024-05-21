@@ -1,0 +1,17 @@
+{
+    "resource_group_name": "staging-resource-group",
+    "location": "West US",
+    "hubs": [
+      {
+        "name": "staging-hub1",
+        "address_space": ["10.3.0.0/16"],
+        "subnet_address_space": ["10.3.1.0/24"]
+      },
+      {
+        "name": "staging-hub2",
+        "address_space": ["10.4.0.0/16"],
+        "subnet_address_space": ["10.4.1.0/24"]
+      }
+    ]
+  }
+  

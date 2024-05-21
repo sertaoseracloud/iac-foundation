@@ -1,0 +1,17 @@
+{
+    "resource_group_name": "prod-resource-group",
+    "location": "Central US",
+    "hubs": [
+      {
+        "name": "prod-hub1",
+        "address_space": ["10.5.0.0/16"],
+        "subnet_address_space": ["10.5.1.0/24"]
+      },
+      {
+        "name": "prod-hub2",
+        "address_space": ["10.6.0.0/16"],
+        "subnet_address_space": ["10.6.1.0/24"]
+      }
+    ]
+  }
+  

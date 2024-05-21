@@ -1,0 +1,29 @@
+{
+  "location": "East US",
+  "tenantId": "7f6fda11-0fba-415f-a315-af2ce7e26a68",
+  "spoke":{
+    "name": "dev-spoke",
+    "address_space": ["10.0.0.0/16"],
+    "subnet_address_space": ["10.0.0.0/24"]
+  },
+  "hubs": [
+    {
+      "name": "dev-aks",
+      "address_space": ["10.1.0.0/16"],
+      "subnet_address_space": ["10.1.1.0/24"]
+    },
+    {
+      "name": "dev-db",
+      "address_space": ["10.2.0.0/16"],
+      "subnet_address_space": ["10.2.1.0/24"]
+    },
+    {
+      "name": "dev-misc",
+      "address_space": ["10.3.0.0/16"],
+      "subnet_address_space": ["10.3.1.0/24"]
+    }
+  ],
+  "vpn_client_address_space": ["172.16.0.0/26"], 
+  "allow_ports": ["443", "8080", "22", "1433", "4022", "135", "1434"]
+}
+
